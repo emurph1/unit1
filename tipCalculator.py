@@ -4,7 +4,8 @@
 
 meal = (input('How much was the meal?'))
 print(meal)
-tip = int(input('How much to tip?'))
-print(tip/100)
-whole = (tip*meal)
-print('You should tip', whole)
+percent = int(input('What percent tip?'))
+tip = (percent/100)
+print(tip)
+print('You should tip', (tip * meal))
+
