@@ -4,6 +4,7 @@
 
 s1 = input('Enter sentence: ')
 charc = input('Enter a character to search for: ')
-print('Your sentence has ', s1.count(charc), 'of the character', charc)
+print('Your sentence has', 
+print('Your sentence has', s1.count(charc), 'of the character', charc)
 word = input('Enter a word to search for: ')
-print('Your sentence has ', s1.count(word), 'of the word', word)
+print('Your sentence has', s1.count(word), 'of the word', word)
