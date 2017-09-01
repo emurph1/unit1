@@ -2,10 +2,12 @@
 #2017-08-31
 #tipCalculator.py - finding out tip
 
-meal = (input('How much was the meal?'))
+meal = float((input('How much was the meal?')))
 print(meal)
-percent = int(input('What percent tip?'))
+percent = float(input('What percent tip?'))
 tip = (percent/100)
 print(tip)
-print('You should tip', (tip * meal))
+total = float(tip * meal)
+print(total)
+print('You should tip', round(total, 2))
 
